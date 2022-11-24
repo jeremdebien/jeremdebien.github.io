@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@font-face { font-family: 'Blacker Sans Pro-Light'; 
+    src: url('fonts/BlackerSansPro-Light.ttf'); } 
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: none; 
+    text-decoration: none; 
+  }
+
+.draft {
+    border: #000 solid 3px;
+}
+h1 {
+    font-family: 'Poppins', Arial;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3vw;
+    text-align: center;
+    font-weight: normal;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Blacker Sans Pro Light', Arial;
+    font-size: 3vw;
+    padding-top: 7vw;
+    padding-bottom: 4vw;
+}
+.button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins Light', Arial;
+    font-size: 3vw;
+    color: #fff;
+    z-index: 2;
+    border: #fff 0.3vw solid;
+    border-radius: .5vw;
+}
+.button:hover {
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+.button p{
+    margin: 1vw 4vw;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins Light', Arial;
+    font-size: 9vw;
+    color: #fff;
+    letter-spacing: 2vw;
+    z-index: 2;
+}
+.header {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 9vw;
+    top: 2vw;
+    z-index: 3;
+}
+.logo {
+    padding: 1vw;
+}
+.logo img{
+    height: 7vw;
+}
+.menu {
+    position: absolute;
+    top: -0.12vw;
+    right: 0;
+
+}
+.menu a h3{
+    padding-right: 5vw;
+    display: inline-block;
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins Light', Arial;
+}
+.menu a h3:hover{
+    color: rgb(148, 148, 148);
+
+}
+#about img{
+    margin: auto;
+    display: block;
+}
+.textbox {
+    margin: auto;
+    width: auto;
+    padding: 10px 18% 10%;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+.text {
+    font-family: 'Blacker Sans Pro Light', Arial;
+    line-height: 3vw;
+}
+
+.profile {
+    max-width: 100%;     
+}
+
+.fullwidth {
+    margin: 0;
+}
+
+/*Gallery*/
+#gallery{
+    overflow: hidden
+}
+#gallery img {
+    float: left;
+}
+
+/*Subscribe*/
+
+#subscribe {
+    font-family: 'Poppins Semibold', Arial;
+    letter-spacing: 15pt;
+    font-size: 4vw;
+}
+
+/*Contact*/
+#contact {
+    position: relative;
+    background-color: #252525;
+    max-height: 100%;
+    padding-top:  3vw;
+}
+.standee {
+    position: relative;
+    width: 100%;
+}
+.standee img {
+    position: absolute;
+    max-width: 30vw;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+table {
+    width: 100%;
+    padding-bottom: 3vw;
+}
+.row_details {
+    width: 43vw;
+}
+.row_standee {
+    width: 30%;
+}
+.socials_container{
+    display: flex;
+    justify-content: center;
+} 
+.socials_container a img{
+    margin: 1vw;
+    height: 3.5vw;
+}
+.socials_container a img:hover{
+    filter: invert(100)
+}
+.contact_details div{
+    position: relative;
+}
+.contact_details p {
+    font-family: 'Poppins Semibold', Arial;
+    text-align: right;
+    color: #fff;
+    font-size: 3.5vw;
+    margin: 0;
+}
+.contact_details div p {
+    position: relative;
+    color: #fff;
+    font-family: Poppins, Arial;
+    text-align: right;
+    font-size: 2vw;
+    margin: 0;
+}
+.phone {
+    background: url(icons/phone.png) no-repeat;
+    background-size: 2.5vw;
+    background-position: 48% 50% ;
+}
+
+.email {
+    background: url(icons/email.png) no-repeat;
+    background-size: 2.8vw;
+    background-position: 18% 50% ;
+}
+
+.address {
+    background: url(icons/location.png) no-repeat;
+    background-size: 2vw;
+    background-position: 3% 50% ;
+}
