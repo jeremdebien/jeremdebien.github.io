@@ -3,8 +3,20 @@
     src: url(fonts/Poppins/Poppins-Bold.otf);
 }
 @font-face {
+    font-family: PoppinsSemiBold;
+    src: url(fonts/Poppins/Poppins-SemiBold.otf);
+}
+@font-face {
     font-family: PoppinsRegular;
     src: url(fonts/Poppins/Poppins-Regular.otf);
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url(fonts/Poppins/Poppins-Light.otf);
+}
+@font-face {
+    font-family: YellowGinger;
+    src: url(fonts/Yellow\ Ginger.ttf);
 }
 
 @keyframes fader {
@@ -102,6 +114,10 @@
     }
 }
 
+.draft {
+    border: thin black solid;
+}
+
 body{
     margin: 0;
 }
@@ -109,6 +125,24 @@ h1 {
     font-family: PoppinsBold, arial;
     font-size: 3vw;
     color: #FF9505;
+}
+h2 {
+    font-family: YellowGinger;    
+    font-size: 4.5vw;
+    color: #ec6a2e;
+}
+h3 {
+    font-family: PoppinsLight;
+    color: #832d06;
+    font-size: 2vw;
+}
+p {
+    font-family: PoppinsLight;
+    color: #832d06;
+    font-size: 1vw;
+}
+.no-spacing {
+    line-height: 0;
 }
 #home {
     position: relative;
@@ -134,11 +168,13 @@ h1 {
 }
 .food-overlay img {
     max-width: 100%;
+    min-height: 1080px;
     opacity: 0;
 }
 
 #gallery img {
     max-width: 100%;
+    min-height: 100%;
     opacity: 0;
 }
 
@@ -197,3 +233,33 @@ h1 {
     border-color: #FF9505;
     color: #000
 }
+
+/*about*/
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.textbox {
+    padding:  2% 2%;
+}
+.textbox h3 {
+    line-height: .5;
+}
+.restaurant-name {
+    font-family: YellowGinger;    
+}
+
+.textbox div {
+    position: relative;
+    top: -5%;
+    left: 2%;
+    text-align: justify;
+}
+
+#best-seller {
+    padding: 10% 0;
+    text-align: center;
+}
+
