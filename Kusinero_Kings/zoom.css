@@ -1,0 +1,344 @@
+
+@media screen and (min-width: 700px) {
+    .pop-up {
+        padding-top: 10%; 
+      }
+}
+@media screen and (min-width: 950px) {
+    .pop-up {
+        padding-top: 7%; 
+      }
+}
+@media screen and (min-width: 1100px) {
+    .pop-up {
+        padding-top: 10px; 
+      }
+}
+@media screen and (min-width: 1200px) {
+    .content-body {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .navbar {
+        width: 100%;
+        height: 6vw;
+        top: 1vw;
+    }
+    .nav-logo {
+        padding: 1vw;
+    }
+    .nav-logo img{
+        height: 4vw;
+    }
+    .nav {
+        position: absolute;
+        top: -0.12vw;
+        right: 0;
+    }
+    .nav a h3{
+        padding-top: 1.5%;
+        padding-right: 2vw;
+        display: inline-block;
+        font-size: 1.5vw;
+        color: #ec6a2e;
+        font-family: PoppinsThin, Arial;
+    }
+    .nav a h3:hover{
+        color: rgb(0, 0, 0);
+    
+    }
+    #carousel {
+        max-width: 50%;;
+    }
+    .textbox h3 {
+        font-size: 1.5vw;
+    }
+    .textbox h2 {
+        font-size: 3.5vw;
+    }
+    .textbox p {
+        font-size: 0.8vw;
+    }
+    .food-container h2 {
+        font-size: 1.8vw;
+    }
+    .food-container p {
+        padding: 0 10%;
+        max-width: 80%;
+        font-size: 0.9vw;  
+    }
+    .menu-overlay h4 {
+        font-size: 2.4vw;
+    }
+    .menu-overlay2 h4 {
+        font-size: 2.4vw;
+    }
+    .team-container p {
+        font-size: 0.8vw; 
+        max-width: 100%; 
+        padding: 0 5%;
+    }
+
+    .menu-overlay{
+        border-radius: 1.5rem;
+    }
+    .menu-overlay2{
+        border-radius: 1.5rem;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .pop-up {
+        padding-top: 0px; 
+      }
+}
+
+@media screen and (min-width: 1500px) {
+    .menu-overlay h4 {
+        font-size: 2.4vw;
+    }
+    .menu-overlay2 h4 {
+        font-size: 2.4vw;
+    }
+    .team-container p {
+        font-size: 0.8vw; 
+        max-width: 100%; 
+        padding: 0 5%;
+    }
+
+    .menu-overlay{
+        border-radius: 1.1rem;
+    }
+    .menu-overlay2{
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .logo img {
+        width: 80%;
+    }
+    .logo {
+        width: 15%;
+        border: 0;
+    }
+
+    td.text {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #gallery {
+        padding-bottom: 5.5%;
+    }
+    .navbar {
+        width: 100%;
+        height: 5vw;
+        top: 1vw;
+    }
+    .nav-logo {
+        padding: 1vw;
+    }
+    .nav-logo img{
+        height: 3vw;
+    }
+    .nav {
+        position: absolute;
+        top: -0.12vw;
+        right: 0;
+    
+    }
+    .nav a h3{
+        padding-top: 2.5%;
+        padding-right: 2vw;
+        display: inline-block;
+        font-size: 1vw;
+        color: #ec6a2e;
+        font-family: PoppinsThin, Arial;
+    }
+    .nav a h3:hover{
+        color: rgb(0, 0, 0);
+    
+    }
+    .menu-overlay{
+        border-radius: 1.3rem;
+    }
+    .menu-overlay2{
+        border-radius: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    #gallery {
+        padding-bottom: 8.5%;
+    }
+    .menu-overlay{
+        border-radius: 2.5rem;
+    }
+    .menu-overlay2{
+        border-radius: 3rem;
+    }
+
+}
+@media screen and (min-width: 2560px) {
+    #gallery {
+        padding-bottom: 13.8%;
+    }
+    
+}
+
+@media screen and (min-width: 3000px) {
+      .menu-overlay{
+        top: 1.2%;
+        border-radius: 2rem;
+        width: 98%;
+        height: 97.1%;
+    }
+    .menu-overlay2{
+        top: 4%;
+        border-radius: 1.8rem;
+        width: 94.5%;
+        height: 91.7%;
+    }
+}
+
+@media screen and (min-width: 3400px) {
+    #gallery {
+        padding-bottom: 24.5%;
+    }
+    .menu-container img {
+        margin-bottom: 1rem;
+    }
+    .three{
+        margin-bottom: 2rem;
+    }
+    .menu-overlay{
+        top: 1%;
+        border-radius: 2rem;
+        width: 98%;
+        height: 95%;
+    }
+    .menu-overlay2{
+        top: 4.5%;
+        border-radius: 2rem;
+        width: 84%;
+        height: 87%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .logo img {
+        width: 30%;
+    }
+  
+}
+@media screen and (min-width: 4500px) {
+      .menu-overlay{
+        top: 1.2%;
+        border-radius: 2.5rem;
+        width: 98%;
+        height: 91%;
+    }
+    .menu-overlay2{
+        top: 5%;
+        border-radius: 1.2rem;
+        width: 63%;
+        height: 68%;
+    }
+    .menu-container img {
+        margin-bottom: 5%;
+    }
+    .three{
+        margin-bottom: 8.5%;
+    }
+}
+@media screen and (min-width: 5100px) {
+    #gallery {
+        padding-bottom: 35.5%;
+    }
+    .menu-container img {
+        margin-bottom: 5%;
+    }
+    .three{
+        margin-bottom: 8.5%;
+    }
+    .menu-overlay{
+        top: 1%;
+        border-radius: 3.2rem;
+        width: 98%;
+        height: 90.8%;
+    }
+    .menu-overlay2{
+        top: 4.8%;
+        border-radius: 2rem;
+        width: 56.2%;
+        height: 65.5%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .logo img {
+        width: 30%;
+    }
+  
+}
+@media screen and (min-width: 6000px) {
+    .menu-container img {
+        margin-bottom: 8%;
+    }
+    .three{
+        margin-bottom: 11%;
+    }
+    .menu-overlay{
+        top: 1.2%;
+        border-radius: 4rem;
+        width: 98%;
+        height: 88%;
+    }
+    .menu-overlay2{
+        top: 4.8%;
+        border-radius: 2rem;
+        width: 47.3%;
+        height: 52.8%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .logo img {
+        width: 30%;
+    }
+    #gallery {
+        padding-bottom: 40%;
+    }
+  
+}
+@media screen and (min-width: 6800px) {
+    .menu-container img {
+        margin-bottom: 8%;
+    }
+    .three{
+        margin-bottom: 11.5%;
+    }
+    .menu-overlay{
+        top: 1%;
+        border-radius: 5rem;
+        width: 98%;
+        height: 88%;
+    }
+    .menu-overlay2{
+        top: 4.8%;
+        border-radius: 2rem;
+        width: 42%;
+        height: 50%;
+    }
+    .logo {
+        width: 30%;
+    }
+    .logo img {
+        width: 30%;
+    }
+    #gallery {
+        padding-bottom: 40%;
+    }
+  
+}
