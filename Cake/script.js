@@ -2,6 +2,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const flameDiv = document.querySelector('.flame');
     const bringBackButton = document.getElementById('bringBackButton');
     const music = document.getElementById("music");
+    const one = document.getElementById("1");
+    const two = document.getElementById("2");
+    const three = document.getElementById("3");
 
     // Request access to the microphone
     navigator.mediaDevices.getUserMedia({ audio: true })
@@ -28,7 +31,22 @@ window.addEventListener('DOMContentLoaded', () => {
                     if (music.paused) {
                         music.play();
                         playButton.textContent = "Pause Music";
-                    } 
+                    }
+                    one.classList.add('hidden');
+                    setTimeout(function(){
+                        two.classList.remove('hidden');
+                    }, 1500);
+                    setTimeout(function(){
+                        two.classList.add('hidden');
+                    }, 4000);
+                    setTimeout(function(){
+                        three.classList.remove('hidden');
+                    }, 5000);
+                    setTimeout(function(){
+                        bringBackButton.classList.remove('hidden');
+                    }, 7000);
+                    
+                    
                 }
             };
         })
@@ -48,5 +66,12 @@ window.addEventListener('DOMContentLoaded', () => {
     bringBackButton.addEventListener('click', () => {
         flameDiv.classList.remove('out');
         music.pause();
+        music.currentTime = 0;
+        bringBackButton.classList.add('hidden');
+        three.classList.add('hidden');
+        setTimeout(function(){
+            one.classList.remove('hidden');
+        }, 1000);
+        
     });
 });
